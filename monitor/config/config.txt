@@ -1,0 +1,17 @@
+[global]
+#监控白名单,列表形式,如不要监控某个监控项,写入其中重启即可
+WhiteList = []
+#本机ip,可不写,程序第一次启动自动填入
+ip = 107.182.19.43
+#合法登录用户
+users = ['vaedit1','vaedit2']
+#磁盘空间阈值
+diskthreshold = 80
+#cpu使用率阈值
+cputhreshold = 80
+#磁盘io阈值
+diskiothreshold = 2000
+#内存使用率阈值
+memthreshold = 90
+#监控频率
+roundtime = 180
